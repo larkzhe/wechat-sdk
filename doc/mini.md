@@ -1,6 +1,6 @@
 ## 微信小程序
 
-- 已实现API列表附录：[API 列表附录](https://github.com/go-pay/wechat-sdk/blob/main/doc/mini.md#%E9%99%84%E5%BD%95)
+- 已实现API列表附录：[API 列表附录](https://github.com/larkzhe/wechat-sdk/blob/main/doc/mini.md#%E9%99%84%E5%BD%95)
 
 - 微信小程序服务端：[官方文档](https://developers.weixin.qq.com/miniprogram/dev/api-backend/)
 
@@ -14,8 +14,8 @@
 
 ```go
 import (
-    "github.com/go-pay/wechat-sdk/mini"
-    "github.com/go-pay/wechat-sdk/pkg/xlog"
+    "github.com/larkzhe/wechat-sdk/mini"
+    "github.com/larkzhe/wechat-sdk/pkg/xlog"
 )
 
 // 初始化微信小程序 SDK
@@ -36,8 +36,8 @@ miniSDK.DebugSwitch = wechat.DebugOn
 
 ```go
 import (
-    "github.com/go-pay/wechat-sdk/mini"
-    "github.com/go-pay/wechat-sdk/pkg/xlog"
+    "github.com/larkzhe/wechat-sdk/mini"
+    "github.com/larkzhe/wechat-sdk/pkg/xlog"
 )
 
 // 若 autoManageToken 为 false，需要手动设置 Token

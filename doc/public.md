@@ -1,6 +1,6 @@
 ## 微信公众号
 
-- 已实现API列表附录：[API 列表附录](https://github.com/go-pay/wechat-sdk/blob/main/doc/public.md#%E9%99%84%E5%BD%95)
+- 已实现API列表附录：[API 列表附录](https://github.com/larkzhe/wechat-sdk/blob/main/doc/public.md#%E9%99%84%E5%BD%95)
 
 - 微信公众号：[官方文档](https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html)
 
@@ -12,8 +12,8 @@
 
 ```go
 import (
-    "github.com/go-pay/wechat-sdk/public"
-    "github.com/go-pay/wechat-sdk/pkg/xlog"
+    "github.com/larkzhe/wechat-sdk/public"
+    "github.com/larkzhe/wechat-sdk/pkg/xlog"
 )
 
 // 初始化微信公众号 SDK
@@ -34,8 +34,8 @@ publicSDK.DebugSwitch = wechat.DebugOn
 
 ```go
 import (
-    "github.com/go-pay/wechat-sdk/public"
-    "github.com/go-pay/wechat-sdk/pkg/xlog"
+    "github.com/larkzhe/wechat-sdk/public"
+    "github.com/larkzhe/wechat-sdk/pkg/xlog"
 )
 
 // 若 autoManageToken 为 false，需要手动设置 Token

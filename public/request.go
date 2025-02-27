@@ -9,7 +9,7 @@ import (
 	"github.com/go-pay/bm"
 	"github.com/go-pay/util"
 	"github.com/go-pay/util/js"
-	"github.com/go-pay/wechat-sdk"
+	"github.com/larkzhe/wechat-sdk"
 )
 
 func (s *SDK) doRequestGet(c context.Context, path string, ptr any) (res *http.Response, err error) {

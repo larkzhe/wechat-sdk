@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-pay/wechat-sdk"
 	"github.com/go-pay/xlog"
+	"github.com/larkzhe/wechat-sdk"
 )
 
 var (
